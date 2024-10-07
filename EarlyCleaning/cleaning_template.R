@@ -1,5 +1,13 @@
-libary(dplyr)
+library(dplyr)
 
+filename = ""
 
+# read in from file
+county_dat <- read.delim(filename)
 
-county_dat <- 
+# filtering what we need
+filtered <- county_dat %>%
+  select(CenYear, Country, RegCnty, AdminCnty, Sex, Age, Cage, Cond, Occ, Occode) %>%    # nolint
+  rename(RegCounty = RegCnty, AdmCounty = AdminCnty, Year= CenYear, MarStatus = Cond)    # nolint
+
+saveRDS(filtered, file = "tester")
