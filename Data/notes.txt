@@ -1,0 +1,19 @@
+1. RDS contains everything we might need form the project, all the data from 1891-1921
+
+2. Selected categories are:
+    - Year
+    - Country
+    - RegCounty (regional county)
+    - AdmCounty (administrative county)
+    - Sex
+    - Age
+    - Cage
+    - MarStatus (marital status)
+    - Occ (occupation title)
+    - Occode (occupation code number)
+
+3. Scotland missing for 1921 census (look into why)
+
+4. Initial file size = 69GB, reduced rds file = ,
+
+5. The cleaning filtering process was nearly too much for my brand new 12-core Ryzen 9 5900X CPU...
