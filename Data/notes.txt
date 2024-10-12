@@ -12,8 +12,8 @@
     - Occ (occupation title)
     - Occode (occupation code number)
 
-3. Scotland missing for 1921 census (look into why)
+3. Scotland missing for 1921 & 1911 census (look into why)
 
-4. Initial file size = 69GB, reduced rds file = ,
+4. Initial file size = 69GB, reduced rds file = 1.2GB (1.73% of original file size)
 
-5. The cleaning filtering process was nearly too much for my brand new 12-core Ryzen 9 5900X CPU...
+5. The cleaning/filtering/compressing process was nearly too much for my brand new 12-core Ryzen 9 5900X CPU, took upward of 3 hours to do and lead to 70 degree CPU heat...
