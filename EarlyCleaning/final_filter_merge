@@ -1,0 +1,9 @@
+#dat <- readRDS("CensusData.rds")
+library(dplyr)
+
+english_by_county <- dat %>%
+    filter(Year == 1911) %>%
+    filter(Country == "ENG")
+
+print(head(english_by_county))
+print(unique(english_by_county$RegCounty))
